@@ -114,6 +114,10 @@ fieldset .input-wrapper {
   margin-left: 5px;
 }
 
+.input-wrapper label span:hover {
+  color: #4e4958;
+}
+
 .input-wrapper input {
   height: 56px;
   padding: 0 20px;
