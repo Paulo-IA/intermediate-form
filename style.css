@@ -129,7 +129,60 @@ fieldset .input-wrapper {
   font-size: 16px;
 }
 
-.double-input {
+.multiple-input {
   display: flex;
   gap: 20px;
+}
+
+.date-fieldset h3 {
+  color: #535971;
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+
+  margin-bottom: 10px;
+}
+
+.multiple-input-date {
+  display: flex;
+  gap: 10px;
+}
+
+.multiple-input input[type="date"] {
+  width: 300px;
+  margin-right: 20px;
+}
+
+/* Footer and button */
+
+footer {
+  padding: 50px 70px;
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+}
+
+footer button {
+  width: 100%;
+  padding: 15px 40px;
+  border-radius: 20px;
+  background: #ff5374;
+
+  border: none;
+  cursor: pointer;
+
+  color: #fff;
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+footer button:hover {
+  background: #f14f70;
+}
+
+/* Validation for email and password */
+form input:not(:focus):not(:placeholder-shown):invalid {
+  border: 2px solid #ff5374;
 }
